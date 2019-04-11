@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pocket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/Script.js"></script>
+    <!--Bootrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="top-banner member-cards-list-top-div">
+        <img src="assets/images/cardlist_header_bg.png" style="visibility: hidden; width: 80%; position: relative; top: 0;" />
+        <div class="top-banner-icon-div padding-left-right float-left-right-div">
+            <div class="float-left-div">
+                <span class="text-white goToMyPocket"> < Back </span>
+            </div>
+            <div class="float-right-div">
+                <span class="text-white">Toronto</span>
+            </div>
+        </div>
+        <h1 class="title text-white padding-left-right" style="font-size: 30px">Hi,Member</h1>
+    </div>
+    <div class="cards-list-content-div padding-left-right">
+        <div class="search-input-div">
+            <div class="search-icon-div">
+                <img class="icon-img-input search-icon" src="assets/icons/search_icon.png" />
+            </div>
+            <input class="search-input" placeholder="Search" type="text" />
+            <div class="icoc-bar-code-div">
+                <img class="icoc-bar-code" src="assets/icons/scane_icon.png" />
+            </div>
+        </div>
+        <div class="member-cards-list-div">
+            <div class="cards-list-button-div">
+                <button class="button-tab button-tab-active" onclick="openTab(event,'shopping')" >Shopping</button>
+                <button class="button-tab" onclick="openTab(event,'life')">Life</button>
+                <button class="button-tab" onclick="openTab(event,'food')">Food</button>
+            </div>
+            <div id="shopping" class="tab-container tab">
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/HM-Share-Image.jpg" />
+                    </div>
+                </div>
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/guess.jpg" />
+                    </div>
+                </div>
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/swa.png" />
+                    </div>
+                </div>
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/swa.png" />
+                    </div>
+                </div>
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/swa.png" />
+                    </div>
+                </div>
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/swa.png" />
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="life" class="tab-container tab" style="display:none">
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/guess.jpg" />
+                    </div>
+                </div>
+                </div>
+
+            <div id="food" class="tab-container tab" style="display:none">
+                <div class="member-card-div">
+                    <div class="member-card">
+                        <img src="assets/images/swa.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body></html>
+    
